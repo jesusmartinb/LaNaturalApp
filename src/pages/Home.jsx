@@ -1,10 +1,10 @@
+import Carous from '../components/Carousel/Carous';
 
-const Home = () => {
+
+function Home() {
   return (
-    <div>
-      Estamos en Home
-    </div>
-  )
+    <Carous />
+  );
 }
 
-export default Home
+export default Home;
