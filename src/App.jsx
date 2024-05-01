@@ -1,17 +1,11 @@
-import './App.css'
-import { ToastContainer, toast } from 'react-toastify';
+import './App.css';
+import Router from './Router';
 
 function App() {
 
-  const openToast = () => {
-    toast('Hello World')
-  }
 
   return (
-    <>
-      <button onClick={openToast}>Click</button>
-      <ToastContainer />
-    </>
+    <Router />
   )
 }
 
